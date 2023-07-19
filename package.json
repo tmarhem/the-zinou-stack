@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pnpm": "^8.6.9"
+  },
+  "devDependencies": {
+    "nx": "^16.5.3"
+  }
 }
