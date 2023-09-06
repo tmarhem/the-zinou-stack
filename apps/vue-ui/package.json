@@ -1,6 +1,15 @@
 {
-  "name": "vue-ui",
+  "name": "my-vue-ui",
   "version": "0.0.1",
+  "files": ["dist"],
+  "main": "./dist/my-vue-ui.umd.js",
+  "module": "./dist/my-vue-ui.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/my-vue-ui.mjs",
+      "require": "./dist/my-vue-ui.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
