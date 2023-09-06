@@ -4,12 +4,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/my-vue-ui.umd.js",
+  "main": "./dist/my-vue-ui.js",
   "module": "./dist/my-vue-ui.js",
   "exports": {
     ".": {
       "import": "./dist/my-vue-ui.js",
-      "require": "./dist/my-vue-ui.umd.js"
+      "require": "./dist/my-vue-ui.js"
     },
     "./style.css": "./dist/style.css"
   },
@@ -29,5 +29,5 @@
   "dependencies": {
     "vue": "^3.3.4"
   },
-  "yalcSig": "2ecd5b8eb1dfcb1b09bd0ee928efd456"
+  "yalcSig": "5475cd2f6971d4f6b82b18f7e6d3b61e"
 }
