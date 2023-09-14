@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import FirstCard from './components/FirstCard.vue'
+import PokemonCard from './widgets/PokemonCard.vue'
 
 </script>
 
 <template>
-<FirstCard/>
+      <Suspense>
 
+<PokemonCard/>
+</Suspense>
 </template>
 
 <style scoped>

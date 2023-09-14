@@ -1,11 +1,16 @@
 <script setup lang="ts">
+// import styleInject from 'style-inject';
+// import css from '../../dist/style.css';
+
+// styleInject(css)
+
 defineProps<{
 }>()
 </script>
 
 <template>
   <div class="ui-first-card">
-    <p>test</p>
+    <p :style="{ 'color': 'cyan'}">test</p>
   </div>
 </template>
 
@@ -17,6 +22,7 @@ defineProps<{
         border-radius: 15px;
         p {
             margin: 8px;
+            color: blue;
         }
     }
 </style>
