@@ -1,8 +1,8 @@
 {
   "version": "v1",
   "packages": {
-    "my-vue-ui": {
-      "signature": "fe8e47a6c732ecb60ec7c6eeb2a351c6",
+    "my-module": {
+      "signature": "c90ed7975767affab4f61fe9d02161cb",
       "file": true
     }
   }

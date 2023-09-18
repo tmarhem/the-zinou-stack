@@ -1,9 +1,0 @@
-{
-  "version": "v1",
-  "packages": {
-    "my-vue-ui": {
-      "signature": "fe8e47a6c732ecb60ec7c6eeb2a351c6",
-      "file": true
-    }
-  }
-}

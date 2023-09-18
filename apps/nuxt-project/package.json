@@ -13,7 +13,8 @@
     "nuxt": "^3.7.1"
   },
   "dependencies": {
+    "@nuxt/kit": "^3.7.3",
     "axios": "^1.5.0",
-    "my-vue-ui": "file:.yalc/my-vue-ui"
+    "my-module": "file:.yalc/my-module"
   }
 }
